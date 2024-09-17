@@ -19,7 +19,6 @@
                 <field name="supplier_order_date" invisible="parent_id"/>
             </xpath>
             <xpath expr="//field[@name='partner_id']" position="after">
-                <field name="requester" invisible="parent_id"/>
                 <label for="mobinome_department_id" invisible="parent_id"/>
                 <div class="o_row" invisible="parent_id">
                     <field name="mobinome_department_id" widget="selection" />
