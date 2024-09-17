@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="mobinome_view_partner_form">
+        <field name="name">res.partner.form.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form/div[1]" position="before">
+                <header>
+                    <button invisible="iri_mobinome == '' or iri_mobinome == False or id_mobinome == 0 or id_mobinome == False" name="send_mobinome" type="object" string="Resend to mobinome" class="oe_highlight"/>
+                    <button invisible="iri_mobinome != '' and iri_mobinome != False and id_mobinome != 0 and id_mobinome != False" name="send_mobinome" type="object" string="Send to mobinome" class="oe_highlight"/>
+                    <button invisible="iri_mobinome == '' or iri_mobinome == False or id_mobinome == 0 or id_mobinome == False" name="show_in_mobinome" type="object" string="Show in mobinome"/>
+                </header>
+            </xpath>
+            <notebook position="after">
+                <group class="mb-0" invisible="iri_mobinome == '' or iri_mobinome == False or id_mobinome == 0 or id_mobinome == False">
+                    <group>
+                        <field name="id_mobinome" readonly="1"/>
+                    </group>
+                    <group>
+                        <field name="iri_mobinome" readonly="1"/>
+                    </group>
+                    <group>
+                        <field name="url_mobinome_file" widget="url" readonly="1" text="Download"/>
+                    </group>
+                </group>
+                <group class="mb-0" invisible="iri_project_task_mobinome == '' or iri_project_task_mobinome == False or id_project_task_mobinome == 0 or id_project_task_mobinome == False">
+                    <group>
+                        <field name="id_project_task_mobinome" readonly="1"/>
+                    </group>
+                    <group>
+                        <field name="iri_project_task_mobinome" readonly="1"/>
+                    </group>
+                </group>
+            </notebook>
+        </field>
+    </record>
+</odoo>

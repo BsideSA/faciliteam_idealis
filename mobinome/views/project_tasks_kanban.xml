@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="project_tasks_kanban_inherit_mobinome" model="ir.ui.view">
+        <field name="name">project.tasks.kanban.inherit.mobinome</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_kanban"/>
+        <field name="arch" type="xml">
+            <xpath expr="//templates" position="before">
+                <field name="iri_mobinome"/>
+                <field name="id_mobinome"/>
+                <field name="can_update_to_mobinome"/>
+            </xpath>
+            <xpath expr="//div[hasclass('oe_kanban_bottom_right')]" position="inside">
+                <button name="send_mobinome" type="object" class="btn" invisible="can_update_to_mobinome == False" style="padding: 0px!important" confirm="Are you sure you want to create this task in Mobinome">
+                    <img src='/mobinome/static/image/synchro.png' alt="mobinome.not.synchro.image" class="oe_kanban_avatar o_image_24_cover float-right" invisible="iri_mobinome == '' or iri_mobinome == False or id_mobinome == 0 or id_mobinome == False"/>
+                    <img src='/mobinome/static/image/not_synchro.png' alt="mobinome.not.synchro.image" class="oe_kanban_avatar o_image_24_cover float-right" invisible="iri_mobinome != '' and iri_mobinome != False and id_mobinome != 0 and id_mobinome != False"/>
+                </button>
+            </xpath>
+        </field>
+    </record>
+</odoo>

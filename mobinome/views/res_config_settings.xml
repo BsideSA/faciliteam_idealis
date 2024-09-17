@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="mobinome_settings_view" model="ir.ui.view">
+        <field name="name">mobinome Configuration</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form" position="inside">
+                <app data-string="Mobinome" string="Mobinome" name="mobinome">
+                    <block title="Settings" name="mobinome_settings_block">
+                        <setting title="Create Project with Customer">
+                            <div class="content-group">
+                                <field name="create_project_task_with_customer" class="o_light_label"/>
+                                <label for="create_project_task_with_customer"/>
+                            </div>
+                        </setting>
+                        <setting title="Automatic Creation Parent Task">
+                            <div class="content-group">
+                                <field name="parent_task_automatic_creation" class="o_light_label"/>
+                                <label for="parent_task_automatic_creation"/>
+                            </div>
+                        </setting>
+                        <setting title="Automatic Creation Tasks">
+                            <div class="content-group">
+                                <field name="tasks_automatic_creation" class="o_light_label"/>
+                                <label for="tasks_automatic_creation"/>
+                            </div>
+                        </setting>
+                        <setting title="Customer Have Lastname">
+                            <div class="content-group">
+                                <field name="customer_have_lastname" class="o_light_label"/>
+                                <label for="customer_have_lastname"/>
+                            </div>
+                        </setting>
+                        <setting title="Default Quote Duration for Tasks">
+                            <div class="content-group">
+                                <label for="mobinome_default_event_cart_cost_quote_duration_in_week"/>
+                                <field name="mobinome_default_event_cart_cost_quote_duration_in_week" class="o_light_label"/>
+                            </div>
+                        </setting>
+                        <setting title="Default Company">
+                            <div class="content-group">
+                                <label for="mobinome_default_company_id"/>
+                                <field name="mobinome_default_company_id" widget="selection" class="o_light_label"/>
+                                <button name="refresh_companies" type="object" string="refresh" icon="fa-rotate" class="btn btn-primary btn-block"/>
+                            </div>
+                        </setting>
+                        <setting title="Default Department">
+                            <div class="content-group">
+                                <label for="mobinome_default_department_id"/>
+                                <field name="mobinome_default_department_id" widget="selection" class="o_light_label"/>
+                                <button name="refresh_departments" type="object" string="refresh" icon="fa-rotate" class="btn btn-primary btn-block"/>
+                            </div>
+                        </setting>
+                        <setting title="Default Mobiner Profile">
+                            <div class="content-group">
+                                <label for="mobinome_default_mobiner_profile_id"/>
+                                <field name="mobinome_default_mobiner_profile_id" widget="selection" class="o_light_label"/>
+                                <button name="refresh_mobiner_profile" type="object" string="refresh" icon="fa-rotate" class="btn btn-primary btn-block"/>
+                            </div>
+                        </setting>
+                        <setting title="Default Material Category">
+                            <div class="content-group">
+                                <label for="mobinome_default_material_category_id"/>
+                                <field name="mobinome_default_material_category_id" widget="selection" class="o_light_label"/>
+                                <button name="refresh_material_category" type="object" string="refresh" icon="fa-rotate" class="btn btn-primary btn-block"/>
+                            </div>
+                        </setting>
+                        <setting title="Default End Task Stage">
+                            <div class="content-group">
+                                <label for="mobinome_default_end_stage_id"/>
+                                <field name="mobinome_default_end_stage_id" widget="selection" class="o_light_label"/>
+                            </div>
+                        </setting>
+                    </block>
+                    <block title="Authentication" name="mobinome_authentication_block">
+                        <setting title="Server">
+                            <div class="content-group">
+                                <label for="mobinome_url"/>
+                                <field name="mobinome_url" placeholder="bside.mobinome.com" widget="url" class="o_light_label"/>
+                            </div>
+                        </setting>
+                        <setting title="Login">
+                            <div class="content-group">
+                                <label for="mobinome_login"/>
+                                <field name="mobinome_login" placeholder="APIUserLogin" class="o_light_label"/>
+                            </div>
+                        </setting>
+                        <setting title="Password">
+                            <div class="content-group">
+                                <label for="mobinome_password"/>
+                                <field name="mobinome_password" placeholder="APIUserPassword" class="o_light_label" password="True"/>
+                            </div>
+                        </setting>
+                    </block>
+                    <block title="Synchronization to Mobinome" name="mobinome_sync_block">
+                        <setting title="Sync Contacts">
+                            <div class="content-group">
+                                <a href="/mobinome/synchronization/sync_partners" role="button" class="btn btn-primary btn-block">Sync contacts</a>
+                            </div>
+                        </setting>
+                        <setting title="Sync project_tasks">
+                            <div class="content-group">
+                                <a href="/mobinome/synchronization/sync_project_tasks" role="button" class="btn btn-primary btn-block">Sync project_tasks</a>
+                            </div>
+                        </setting>
+                        <setting title="Sync Employees">
+                            <div class="content-group">
+                                <a href="/mobinome/synchronization/sync_employees" role="button" class="btn btn-primary btn-block">Sync employees</a>
+                            </div>
+                        </setting>
+                        <setting title="Sync Article Categories">
+                            <div class="content-group">
+                                <a href="/mobinome/synchronization/sync_categories_article" role="button" class="btn btn-primary btn-block">Sync article categories</a>
+                            </div>
+                        </setting>
+                        <setting title="Sync Articles">
+                            <div class="content-group">
+                                <a href="/mobinome/synchronization/sync_articles" role="button" class="btn btn-primary btn-block">Sync articles</a>
+                            </div>
+                        </setting>
+                    </block>
+                    <block title="Synchronization from Mobinome" name="mobinome_sync_from_block">
+                        <setting title="Sync Services">
+                            <div class="content-group">
+                                <a href="/mobinome/synchronization/sync_services" role="button" class="btn btn-primary btn-block">Sync services</a>
+                            </div>
+                        </setting>
+                        <setting title="Sync Stock">
+                            <div class="content-group">
+                                <a href="/mobinome/synchronization/sync_stock" role="button" class="btn btn-primary btn-block">Sync stock</a>
+                            </div>
+                        </setting>
+                    </block>
+                    <block title="Token" name="mobinome_token_block">
+                        <setting title="Json Web Token">
+                            <div class="content-group">
+                                <div invisible="mobinome_token == False">
+                                    <div class="text-muted">Json Web Token generated between Odoo and Mobinome</div>
+                                    <pre>
+                                        <field name="mobinome_token" class="o_light_label" readonly="1"/>
+                                    </pre>
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6">
+                                            <button name="refresh_token" type="object" string="Generate token" class="btn btn-primary btn-block"/>
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <button name="action_clear_token" type="object" string="Clear token" class="btn btn-outline-primary btn-block"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div invisible="mobinome_token != False">
+                                    <div class='alert alert-info' role="alert">
+                                        <h4 class="alert-heading" role="alert">No synchronized data</h4>
+                                        <p class="mb-0">
+                                            You must enter the connection information below (server, login, and password).
+                                            At the first synchronization with Mobinome, if your accesses are correct,
+                                            the token will be displayed instead of this text.
+                                            You can test your connection infos with this bottom's button.
+                                        </p>
+                                        <button name="refresh_token" type="object" string="Test connection" class="btn btn-primary btn-block"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </setting>
+                    </block>
+                    <block title="About" name="mobinome_about_block">
+                        <setting title="App Store Links">
+                            <div class="d-flex">
+                                <div class="content-group">
+                                    <a class="d-block mx-auto" href="https://play.google.com/store/apps/details?id=be.bside.mobinomecloud" target="blank">
+                                        <img alt="On Google Play" class="d-block mx-auto img img-fluid" src="/base_setup/static/src/img/google_play.png"/>
+                                    </a>
+                                </div>
+                                <div class="content-group">
+                                    <a class="d-block mx-auto" href="https://itunes.apple.com/be/app/mobinome-cloud/id1580685798" target="blank">
+                                        <img alt="On App Store" class="d-block mx-auto img img-fluid" src="/base_setup/static/src/img/app_store.png"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </setting>
+                        <setting title="Version Info">
+                            <div class="content-group">
+                                <div class="user-heading">
+                                    <h3 class="mb-4">Mobinome 17.0.1</h3>
+                                    <h5>Developed with <span class="text-danger">❤</span> by <a href="https://www.bside.be" target="_blank">Bside</a></h5>
+                                </div>
+                            </div>
+                        </setting>
+                    </block>
+                </app>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="mobinome_settings_action" model="ir.actions.act_window">
+        <field name="name">Mobinome settings</field>
+        <field name="res_model">res.config.settings</field>
+        <field name="view_id" ref="mobinome_settings_view"/>
+        <field name="view_mode">form</field>
+        <field name="target">inline</field>
+        <field name="context">{'module' : 'mobinome'}</field>
+    </record>
+</odoo>

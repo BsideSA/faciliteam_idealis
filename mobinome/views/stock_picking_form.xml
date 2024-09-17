@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="stock_picking_form_inherit_mobinome" model="ir.ui.view">
+        <field name="name">stock.picking.view.form.inherit.mobinome</field>
+        <field name="model">stock.picking</field>
+        <field name="inherit_id" ref="stock.view_picking_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//header" position="inside">
+                <button name="sync_stock" type="object" string="Import from mobinome" class="oe_highlight"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,634 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mobinome
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-17 08:45+0000\n"
+"PO-Revision-Date: 2024-05-17 08:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "APIUserLogin"
+msgstr ""
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "APIUserPassword"
+msgstr ""
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "About"
+msgstr "À propos"
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "Ligne analytique"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.project_tasks_kanban_inherit_mobinome
+msgid "Are you sure you want to create this task in Mobinome"
+msgstr "Voulez-vous vraiment créer cette tâche dans Mobinome"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Authentication"
+msgstr "Authentification"
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_base_import_import
+msgid "Base Import"
+msgstr "Base d'importation"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Bside"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_task__can_update_to_mobinome
+msgid "Can update to mobinome"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__city
+msgid "City"
+msgstr "Ville"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Clear token"
+msgstr "Effacer le token"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_service_time_activities__color
+msgid "Color"
+msgstr "Couleur"
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de configuration"
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__country_id
+msgid "Country"
+msgstr "Pays"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__country_code
+msgid "Country Code"
+msgstr "Code pays"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_config_settings__create_project_with_customer
+msgid "Create project with customer"
+msgstr "Créer les projets avec les clients"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_companies__create_uid
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_departments__create_uid
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_material_category__create_uid
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_mobiner_profile__create_uid
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_service_time_activities__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_companies__create_date
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_departments__create_date
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_material_category__create_date
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_mobiner_profile__create_date
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_service_time_activities__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_config_settings__customer_have_lastname
+msgid "Customer Have lastname"
+msgstr "Client avec un prénom"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_config_settings__mobinome_default_mobiner_profile_id
+msgid "Default Profile"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_config_settings__mobinome_default_company_id
+msgid "Default company"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_config_settings__mobinome_default_department_id
+msgid "Default department"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_config_settings__mobinome_default_material_category_id
+msgid "Default material category"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_config_settings__mobinome_default_event_cart_cost_quote_duration_in_week
+msgid "Default quote duration for tasks (in week)"
+msgstr ""
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Developed with <span class=\"text-danger\">❤</span> by"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_companies__display_name
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_departments__display_name
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_material_category__display_name
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_mobiner_profile__display_name
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_service_time_activities__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_view_partner_form
+#: model_terms:ir.ui.view,arch_db:mobinome.project_project_view_form_inherit_mobinome
+msgid "Download"
+msgstr "Télécharger"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__desired_start
+msgid "Due date"
+msgstr "Date d'échéance"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__email
+msgid "Email"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_hr_employee
+msgid "Employee"
+msgstr "Employé"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Generate token"
+msgstr "Générer le token"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__total_hours_planned
+msgid "Hours Planned"
+msgstr "Heures plannifiées"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_hr_employee__id_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_companies__id
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_departments__id
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_material_category__id
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_mobiner_profile__id
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_service_time_activities__id
+#: model:ir.model.fields,field_description:mobinome.field_product_product__id_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_product_template__id_mobinome
+msgid "ID"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_account_analytic_line__id_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__id_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_task__id_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_partner__id_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_users__id_mobinome
+msgid "ID Mobinome"
+msgstr "Mobinome ID"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_partner__id_project_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_users__id_project_mobinome
+msgid "ID Project Mobinome"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_product_category__id_article_mobinome
+msgid "ID article"
+msgstr "ID"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_product_category__id_consumable_mobinome
+msgid "ID consumable"
+msgstr "ID"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_hr_employee__iri_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_product_product__iri_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_product_template__iri_mobinome
+msgid "IRI"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_account_analytic_line__iri_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_companies__iri_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_departments__iri_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_material_category__iri_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_mobiner_profile__iri_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_service_time_activities__iri_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__iri_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_task__iri_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_partner__iri_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_users__iri_mobinome
+msgid "IRI Mobinome"
+msgstr "IRI"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_partner__iri_project_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_users__iri_project_mobinome
+msgid "IRI Project Mobinome"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_product_category__iri_article_mobinome
+msgid "IRI article"
+msgstr "IRI"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_product_category__iri_consumable_mobinome
+msgid "IRI consumable"
+msgstr "IRI"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.project_project_view_form_inherit_mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.sale_order_form_inherit_mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.stock_picking_form_inherit_mobinome
+msgid "Import from mobinome"
+msgstr "Importer depuis mobinome"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_hr_employee__is_sent_to_mobinome_as_material
+msgid "Is sent as Mobinome material"
+msgstr ""
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Json Web Token generated between Odoo &amp; Mobinome"
+msgstr "Json Web Token généré entre Odoo &amp; Mobinome"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_product_category__lvl_mobinome
+msgid "LVL"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_companies____last_update
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_departments____last_update
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_material_category____last_update
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_mobiner_profile____last_update
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_service_time_activities____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_companies__write_uid
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_departments__write_uid
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_material_category__write_uid
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_mobiner_profile__write_uid
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_service_time_activities__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_companies__write_date
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_departments__write_date
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_material_category__write_date
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_mobiner_profile__write_date
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_service_time_activities__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_config_settings__mobinome_login
+msgid "Login"
+msgstr "Nom d'utilisateur"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_hr_employee__login_mobinome
+msgid "Login App"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__mobile
+msgid "Mobile"
+msgstr ""
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.hr_employee_view_form_inherit_mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Mobinome"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_mobinome_material_category
+msgid "Mobinome Material Category"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_mobinome_mobiner_profile
+msgid "Mobinome Mobiner profile"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_mobinome_companies
+msgid "Mobinome companies"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__mobinome_department_id
+msgid "Mobinome department"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_mobinome_departments
+msgid "Mobinome departments"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_mobinome_service_time_activities
+msgid "Mobinome service time activities"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__mobinome_service_time_activity_id
+msgid "Mobinome service time activity"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.actions.act_window,name:mobinome.mobinome_settings_action
+msgid "Mobinome settings"
+msgstr "Paramètres Mobinome"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__mobinome_task_name
+msgid "Mobinome task name"
+msgstr "Nom tache mobinome"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_companies__name
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_departments__name
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_material_category__name
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_mobiner_profile__name
+#: model:ir.model.fields,field_description:mobinome.field_mobinome_service_time_activities__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "No synchronized data"
+msgstr "Aucune donnée synchronisée"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__total_mobiner_planned
+msgid "Number of technician"
+msgstr ""
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "On App Store"
+msgstr "Sur l'App Store"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "On Google Play"
+msgstr "Sur Google Play"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_config_settings__mobinome_password
+msgid "Password"
+msgstr "Mot de passe"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_hr_employee__password_mobinome
+msgid "Password App"
+msgstr "Mot de passe App"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__phone
+msgid "Phone"
+msgstr "Téléphone"
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_product_template
+msgid "Product"
+msgstr "Produit"
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_product_category
+msgid "Product Category"
+msgstr "Catégorie de produit"
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_project_project
+msgid "Project"
+msgstr "Projet"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__project_manager
+msgid "Project manager employee"
+msgstr ""
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.hr_employee_view_form_inherit_mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_view_partner_form
+#: model_terms:ir.ui.view,arch_db:mobinome.product_template_view_form_inherit_mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.project_project_view_form_inherit_mobinome
+msgid "Resend to mobinome"
+msgstr "Renvoyer à mobinome"
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_sale_order
+msgid "Sales Order"
+msgstr "Bon de commande"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_product_product__send_to_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_product_template__send_to_mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.hr_employee_view_form_inherit_mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_view_partner_form
+#: model_terms:ir.ui.view,arch_db:mobinome.product_template_view_form_inherit_mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.project_project_view_form_inherit_mobinome
+msgid "Send to mobinome"
+msgstr "Envoyer à mobinome"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_config_settings__mobinome_url
+msgid "Server"
+msgstr "Serveur"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Settings"
+msgstr ""
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_view_partner_form
+msgid "Show in mobinome"
+msgstr "Montrer dans mobinome"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__stage
+msgid "Stage"
+msgstr "Stade"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__street
+msgid "Street"
+msgstr "Rue"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__street2
+msgid "Street 2"
+msgstr "Rue 2"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__supplier_order_date
+msgid "Supplier order date"
+msgstr "Date commande fournisseur"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Sync article categories"
+msgstr "Synchroniser catégories d'article"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Sync articles"
+msgstr "Synchroniser articles"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Sync contacts"
+msgstr "Synchroniser contacts"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Sync employees"
+msgstr "Synchroniser employées"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Sync project_tasks"
+msgstr "Synchroniser projets"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Sync services"
+msgstr "Synchroniser prestations"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Sync stock"
+msgstr "Synchroniser stock"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Synchronization from Mobinome"
+msgstr "Synchronisation depuis Mobinome"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Synchronization to Mobinome"
+msgstr "Synchronisation vers Mobinome"
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_project_task
+msgid "Task"
+msgstr "Tâche"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_config_settings__tasks_automatic_creation
+msgid "Tasks Automatic Creation"
+msgstr "Taches Creation Automatique"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Test connexion"
+msgstr "Tester la connexion"
+
+#. module: mobinome
+#: model:ir.model.fields,help:mobinome.field_project_project__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_config_settings__mobinome_token
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Token"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_stock_picking
+msgid "Transfer"
+msgstr "Transfert"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_partner__url_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_users__url_mobinome
+msgid "URL Mobinome"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__url_mobinome_file
+#: model:ir.model.fields,field_description:mobinome.field_res_partner__url_mobinome_file
+#: model:ir.model.fields,field_description:mobinome.field_res_users__url_mobinome_file
+msgid "URL Mobinome File"
+msgstr "URL Fichier Mobinome"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid ""
+"You must enter the connection information below (server, login and password).\n"
+"                                                At the first synchronization with Mobinome, if your accesses are correct,\n"
+"                                                the token will be displayed instead of this text.\n"
+"                                                You can test your connection infos with this bottom's button."
+msgstr ""
+"Vous devez saisir les informations de connexion ci-dessous (serveur, login et mot de passe).\n"
+"                                                Lors de la première synchronisation avec Mobinome, si vos accès sont corrects,\n"
+"                                                le jeton sera affiché à la place de ce texte.\n"
+"Vous pouvez tester la connexion avec le bouton 'tester la connexion'"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_project_project__zip
+msgid "Zip"
+msgstr "Code postal"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "bside.mobinome.com"
+msgstr ""
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_hr_employee__is_mobinome_material
+msgid "is Mobinome material?"
+msgstr ""
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.project_tasks_kanban_inherit_mobinome
+msgid "mobinome.not.synchro.image"
+msgstr ""
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "refresh"
+msgstr "Rafraichir"

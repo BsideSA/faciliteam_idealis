@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <record id="project_task_view_form_inherit_mobinome" model="ir.ui.view">
+        <field name="name">project.task.form.inherit.mobinome</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_form2"/>
+        <field name="arch" type="xml">
+            <xpath expr="//header" position="inside">
+                <button invisible="iri_mobinome == '' or iri_mobinome == False or id_mobinome == 0 or id_mobinome == False" name="send_mobinome" type="object" string="Resend to mobinome" class="oe_highlight"/>
+                <button invisible="iri_mobinome != '' and iri_mobinome != False and id_mobinome != 0 and id_mobinome != False" name="send_mobinome" type="object" string="Send to mobinome" class="oe_highlight"/>
+                <button invisible="parent_id" name="sync_all" type="object" string="Import from mobinome" class="oe_highlight"/>
+            </xpath>
+            <xpath expr="//field[@name='tag_ids']" position="after">
+                <field name="mobinome_task_name" invisible="parent_id"/>
+                <field name="project_manager" invisible="1"/>
+                <field name="total_hours_planned" widget="timesheet_uom" options="{'force_button': true}" invisible="parent_id"/>
+                <field name="total_mobiner_planned" invisible="parent_id"/>
+                <field name="desired_start" invisible="parent_id"/>
+                <field name="supplier_order_date" invisible="parent_id"/>
+            </xpath>
+            <xpath expr="//field[@name='partner_id']" position="after">
+                <field name="requester" invisible="parent_id"/>
+                <label for="mobinome_department_id" invisible="parent_id"/>
+                <div class="o_row" invisible="parent_id">
+                    <field name="mobinome_department_id" widget="selection" />
+                    <button name="refresh_departments" type="object" icon="fa-refresh" class="btn btn-primary btn-block"/>
+                </div>
+                <label for="mobinome_service_time_activity_id" invisible="parent_id"/>
+                <div class="o_row" invisible="parent_id">
+                    <field name="mobinome_service_time_activity_id" widget="selection" />
+                    <button name="refresh_service_time_activity" type="object" icon="fa-refresh" class="btn btn-primary btn-block"/>
+                </div>
+            </xpath>
+            <notebook position="after">
+                <group class="mb-0" invisible="iri_mobinome == '' or iri_mobinome == False or id_mobinome == 0 or id_mobinome == False">
+                    <group>
+                        <field name="id_mobinome" readonly="1"/>
+                    </group>
+                    <group>
+                        <field name="iri_mobinome" readonly="1"/>
+                    </group>
+                    <group>
+                        <field name="url_mobinome_file" widget="url" readonly="1" text="Download" invisible="parent_id"/>
+                    </group>
+                </group>
+            </notebook>
+        </field>
+    </record>
+</odoo>

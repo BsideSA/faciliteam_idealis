@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <record id="product_category_view_form_inherit_mobinome" model="ir.ui.view">
+        <field name="name">category.product.form.inherit.mobinome</field>
+        <field name="model">product.category</field>
+        <field name="inherit_id" ref="product.product_category_form_view"/>
+        <field name="arch" type="xml">
+            <sheet position="after">
+                <group class="mb-0" invisible="iri_article_mobinome == '' or iri_article_mobinome == False or id_article_mobinome == 0 or id_article_mobinome == False">
+                    <group>
+                        <field name="id_article_mobinome" readonly="1"/>
+                    </group>
+                    <group>
+                        <field name="iri_article_mobinome" readonly="1"/>
+                    </group>
+                </group>
+                <group class="mb-0" invisible="iri_consumable_mobinome == '' or iri_consumable_mobinome == False or id_consumable_mobinome == 0 or id_consumable_mobinome == False">
+                    <group>
+                        <field name="id_consumable_mobinome" readonly="1"/>
+                    </group>
+                    <group>
+                        <field name="iri_consumable_mobinome" readonly="1"/>
+                    </group>
+                </group>
+            </sheet>
+        </field>
+    </record>
+</odoo>

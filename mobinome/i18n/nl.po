@@ -1,0 +1,143 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mobinome
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e-20220506\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-23 20:12+0000\n"
+"PO-Revision-Date: 2022-05-23 22:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_BE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "APIUserLogin"
+msgstr "APIUserLogin"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "APIUserPassword"
+msgstr "APIUserPassword"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "About"
+msgstr "Wat betreft"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Authentication"
+msgstr "Authenticatie"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Bside"
+msgstr "Bside"
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_res_config_settings
+msgid "Config Settings"
+msgstr "Mobinome parameters"
+
+#. module: mobinome
+#: model:ir.model,name:mobinome.model_res_partner
+msgid "Contact"
+msgstr "Contact"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Developed with <span class=\"text-danger\">❤</span> by"
+msgstr "Ontwikkeld met <span class=\"text-danger\">❤</span> door"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_partner__id_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_users__id_mobinome
+msgid "ID Mobinome"
+msgstr "Mobinome ID"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_partner__iri_mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_users__iri_mobinome
+msgid "IRI Mobinome"
+msgstr "IRI"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Json Web Token generated between Odoo &amp; Mobinome"
+msgstr "Json Web Token gegenereerd tussen Odoo &amp; Mobinome"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_config_settings__mobinome_login
+msgid "Login"
+msgstr "Login"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Mobinome"
+msgstr "Mobinome"
+
+#. module: mobinome
+#: model:ir.actions.act_window,name:mobinome.mobinome_settings_action
+msgid "Mobinome settings"
+msgstr "Mobinome parameters"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "No synchronized data"
+msgstr "Geen gesynchroniseerde gegevens"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "On App Store"
+msgstr "On App Store"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "On Google Play"
+msgstr "On Google Play"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_config_settings__mobinome_password
+msgid "Password"
+msgstr "Wachtwoord"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_config_settings__mobinome_url
+msgid "Server"
+msgstr "Server"
+
+#. module: mobinome
+#: model:ir.model.fields,field_description:mobinome.field_res_config_settings__mobinome_token
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "Token"
+msgstr "Token"
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid ""
+"You must enter the connection information below (server, login and "
+"password).\n"
+"                                                At the first synchronization "
+"with Mobinome, if your accesses are correct,\n"
+"                                                the token will be displayed "
+"instead of this text."
+msgstr ""
+"U moet de verbindingsinformatie hieronder invoeren (server, login en "
+"wachtwoord).\n"
+"                                                Bij de eerste synchronisatie "
+"met Mobinome, als uw toegangen correct zijn,\n"
+"                                                het token zal worden "
+"weergegeven in plaats van deze tekst."
+
+#. module: mobinome
+#: model_terms:ir.ui.view,arch_db:mobinome.mobinome_settings_view
+msgid "bside.mobinome.com"
+msgstr "bside.mobinome.com"

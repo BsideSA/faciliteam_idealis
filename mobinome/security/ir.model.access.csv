@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_mobinome_companies,access_mobinome_companies,model_mobinome_companies,base.group_user,1,1,1,1
+access_mobinome_departments,access_mobinome_departments,model_mobinome_departments,base.group_user,1,1,1,1
+access_mobinome_mobiner_profile,access_mobinome_mobiner_profile,model_mobinome_mobiner_profile,base.group_user,1,1,1,1
+access_mobinome_material_category,access_mobinome_material_category,model_mobinome_material_category,base.group_user,1,1,1,1
+access_mobinome_service_time_activities,access_mobinome_service_time_activities,model_mobinome_service_time_activities,base.group_user,1,1,1,1
